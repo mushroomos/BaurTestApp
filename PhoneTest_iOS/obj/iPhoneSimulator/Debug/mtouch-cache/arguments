@@ -1,0 +1,29 @@
+# Version: 7.2.5.5 (87026b6)
+# [first argument, ignore] # /Users/iosdev/Projects/PhoneTest/PhoneTest_iOS/bin/iPhoneSimulator/Debug/mtouch.exe
+/Developer/MonoTouch/usr/bin/mtouch \
+	-sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--cache \
+	/Users/iosdev/Projects/PhoneTest/PhoneTest_iOS/obj/iPhoneSimulator/Debug/mtouch-cache \
+	--nomanifest \
+	--nosign \
+	-sim \
+	/Users/iosdev/Projects/PhoneTest/PhoneTest_iOS/bin/iPhoneSimulator/Debug/PhoneTest_iOS.app \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.Xml.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.Core.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/monotouch.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.Net.Http.dll \
+	-debug \
+	-nolink \
+	-sdk \
+	7.1 \
+	-targetver \
+	7.0 \
+	--abi=i386 \
+	/Users/iosdev/Projects/PhoneTest/PhoneTest_iOS/bin/iPhoneSimulator/Debug/PhoneTest_iOS.exe \
